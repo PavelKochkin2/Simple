@@ -6,6 +6,7 @@ namespace Singleton
     class WeekEnumerator : IEnumerator
     {
         string[] days;
+        public String Jopa { get; set; }
         int position = -1;
         public WeekEnumerator(string[] days)
         {
